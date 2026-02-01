@@ -1,6 +1,6 @@
 # Goals
 
-This boilerplate is built to be practical, opinionated, and production-ready — without over-engineering.
+This boilerplate is built to be practical, opinionated, and production-ready - without over-engineering.
 You can use it as a foundation for client work, internal products, or your next startup idea.
 
 ## What’s included
