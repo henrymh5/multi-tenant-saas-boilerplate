@@ -35,6 +35,12 @@ export default function RootLayout({
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen overflow-hidden flex flex-col relative`}>
           <header className="border-b border-[#ffffff1a] flex justify-end items-center p-3 gap-4 h-12 bg-[#101010]">
+            <div className="HeaderButton border border-[#ffffff3a] flex items-center justify-center pr-2 pl-2 text-xs text-[#ffffffb8] h-full rounded-full">
+              Feedback
+            </div>
+            <div className="HeaderButton border border-[#ffffff3a] text-xs text-[#ffffffb8] w-fit h-full aspect-square flex items-center justify-center rounded-full">
+              ?
+            </div>
             <SignedOut>
               <SignInButton>
                 <button className="hover:bg-[#ffffff1a] transition rounded-xl text-white font-medium text-sm sm:text-small h-8 sm:h-8 px-3 sm:px-3 cursor-pointer">Sign in</button>
