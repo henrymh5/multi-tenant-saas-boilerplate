@@ -15,6 +15,7 @@ export default function Sidebar() {
         onMouseLeave={() => setSidebarOpen(!sidebarOpen)}
         className={`${sidebarOpen && sidebarSetting === "collapsed" ? "w-50" : ""} ${sidebarSetting === "collapsed" ? "w-15" : "w-50"} Sidebar overflow-hidden flex justify-start items-end pb-5 pl-5 pr-5 transition-all border-r border-[#ffffff1a] bg-[#101010] self-stretch`}
       >
+        
         <div
           onClick={() => setSettingsOpen(!settingsOpen)} className="SidebarLabel transition-all opacity-30 hover:opacity-100 flex gap-6 items-center justify-start cursor-pointer">
         <Columns3Cog
